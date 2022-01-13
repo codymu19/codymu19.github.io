@@ -5,15 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Whit Water Rafter</title>
 </head>
 <body>
- <h1 style='font-weight:normal'> fred </h1> 
- <h2>fred</h2> 
- <h3>fred</h3> 
- <h4>fred</h4>
- <h5>fred</h5>
-<h6>fred</h6>
+<h1>Site Plan</h1>
+<p>Boom Bang Fire Power</p>
 </body>
 </html> 
 
