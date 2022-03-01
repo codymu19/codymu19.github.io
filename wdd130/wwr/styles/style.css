@@ -56,7 +56,6 @@ footer {
     background-color: #427aa1;
     font-family: var(--paragraph-font);
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -256,6 +255,7 @@ h2 {
 li{
     font-family: var(--paragraph-font);
     color: #000;
+    font-size: 20px;
 }
 h1, h2{
     font-family: var(--heading-font);
@@ -263,22 +263,26 @@ h1, h2{
 #contact_buttons{
     display: grid;
     grid-template-columns: 1fr, 1fr, 1fr;
-    column-gap: 10px;
+    column-gap: px;
     justify-items: center;
+    background-color: #0b132b;
 
 }
 .call, .email, .text{
     text-align: center;
-    background-color: #6cae75;
-    color: black;
+    /* background-color: #6cae75; */
+    border: 2px solid;
+    border-color: #6cae75;
+    color: white;
     text-decoration: none;
     font-family: var(--paragraph-font);
     font-size: 18px;
+    font-weight: bold;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
     text-decoration: none;
-    max-width: 50%;
+    max-width: 100%;
     margin-bottom: 50px;
 }
 .call{
@@ -292,19 +296,29 @@ h1, h2{
 }
 #faq-img{
     width: 100%;
-    max-height: 800px;
+    max-height: 500px;
 }
-h2{
-    font-size: 5ex;
+.m_heading{
+    font-size: 3.5ex;
     text-align: center;
+    padding: 20px;
+}
+#icon {
+    text-decoration: none;
+    justify-items: center;
+    border: 3px solid;
+    border-color: #6cae75;
+    border-radius: 1000%;
     padding: 50px;
 }
-a {
-    text-decoration: none;
-}
 .faq {
-    padding-left: 75px;
-    padding-right: 75px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#contact_buttons {
+    padding-bottom: 30px;
 }
     
 @media screen and (max-width: 900px) {
