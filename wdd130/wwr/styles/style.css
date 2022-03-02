@@ -266,12 +266,12 @@ h1, h2{
 #contact_buttons{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 0.5fr 2fr;
     justify-items: center;
     background-color: #0b132b;
     /* max-height: 300px; */
     color: white;
     font-size: 15px;
-
 }
 .call, .email, .text{
     text-align: center;
@@ -294,12 +294,20 @@ h1, h2{
 }
 .call{
     grid-column: 1/2;
+    grid-row: 2/3;
 }
 .email{
     grid-column: 2/3;
+    grid-row: 2/3;
+
 }
 .text{
     grid-column: 3/4;
+    grid-row: 2/3;
+}
+.question{
+    grid-column: 1/4;
+    grid-row: 1/2;
 }
 #faq-img{
     width: 100%;
@@ -319,7 +327,8 @@ h1, h2{
     border: 3px solid;
     border-color: #6cae75;
     border-radius: 50%;
-    padding: .5ex;
+    padding: .6ex;
+    grid-row: 4/5;
 }
 .faq {
     margin-left: 10%;
