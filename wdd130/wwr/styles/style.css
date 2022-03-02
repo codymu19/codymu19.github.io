@@ -314,7 +314,7 @@ h1, h2{
     grid-row: 2/3;
     color: white;
 }
-#icon {
+#phone, #envelope, #sms {
     text-decoration: none;
     justify-items: center;
     border: 3px solid;
