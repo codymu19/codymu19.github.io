@@ -269,11 +269,9 @@ h1, h2{
     justify-items: center;
     background-color: #0b132b;
     /* max-height: 300px; */
-
-}
-#contact_buttons {
     color: white;
     font-size: 15px;
+
 }
 .call, .email, .text{
     text-align: center;
@@ -291,6 +289,8 @@ h1, h2{
     max-width: 100%;
     grid-row: 1/2;
     justify-items: center;
+    align-items: center;
+    align-content: center;
 }
 .call{
     grid-column: 1/2;
@@ -316,10 +316,9 @@ h1, h2{
 }
 #phone, #envelope, #sms {
     text-decoration: none;
-    justify-items: center;
     border: 3px solid;
     border-color: #6cae75;
-    border-radius: 1000%;
+    border-radius: 50%;
     padding: .5ex;
 }
 .faq {
