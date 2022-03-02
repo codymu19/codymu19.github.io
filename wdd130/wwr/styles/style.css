@@ -266,10 +266,14 @@ h1, h2{
 #contact_buttons{
     display: grid;
     grid-template-columns: 1fr, 1fr, 1fr;
-    column-gap: px;
+    grid-template-rows: 1fr, 2fr, 1fr;
     justify-items: center;
     background-color: #0b132b;
+    /* max-height: 300px; */
 
+}
+#contact_buttons p{
+    color: white;
 }
 .call, .email, .text{
     text-align: center;
@@ -279,7 +283,7 @@ h1, h2{
     color: white;
     text-decoration: none;
     font-family: var(--paragraph-font);
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     padding: 15px 30px;
     margin-top: 50px;
@@ -323,6 +327,8 @@ h1, h2{
     margin-right: 10%;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #contact_buttons {
     padding-bottom: 30px;
@@ -367,5 +373,8 @@ h1, h2{
     }
     footer {
         margin-top: 25px;
+    }
+    #m_heading{
+        color: #000;
     }
 }
