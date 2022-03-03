@@ -29,6 +29,10 @@ Fonts are separated by a | */
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
+body, div, header, h1, h2, h3, h4, h5, h6, li, section {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   max-width: 1200px;
