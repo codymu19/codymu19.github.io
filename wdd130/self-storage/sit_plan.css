@@ -137,6 +137,13 @@ nav a:hover {
 .logo {
   max-width: 200px;
   max-height: 200px;
+  margin: 0;
+  padding: 0;
+}
+#logo_link {
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
 }
 
 .sitemap {
@@ -219,7 +226,7 @@ height: 50%;
 .stay_connected{
   grid-column: 3/4;
 }
-img{
-  margin: 0;
-  padding: 0;
+
+#hero-img {
+  width: 100%;
 }
