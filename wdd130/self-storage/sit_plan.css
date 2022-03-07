@@ -29,9 +29,12 @@ Fonts are separated by a | */
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
-body, div, header, h1, h2, h3, h4, h5, h6, li, section {
+body, div, header, h1, h2, h3, h4, h5, h6, li, section, img {
   margin: 0;
   padding: 0;
+}
+a {
+  text-decoration: none;
 }
 
 body {
@@ -131,6 +134,10 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
+.logo {
+  max-width: 200px;
+  max-height: 200px;
+}
 
 .sitemap {
   display: grid;
@@ -184,4 +191,35 @@ nav a:hover {
 #image {
 width: 50%;
 height: 50%;
+}
+
+.bottom_footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+}
+
+.top_footer{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr;
+}
+
+.sub{
+  grid-column: 1/2;
+  justify-items: center;
+}
+.input{
+  grid-column: 2/3;
+}
+.social_media{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: 4/5;
+  align-items: center;
+}
+.stay_connected{
+  grid-column: 3/4;
+}
+img{
+  margin: 0;
+  padding: 0;
 }
