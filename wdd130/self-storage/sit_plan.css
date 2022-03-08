@@ -40,9 +40,13 @@ a {
 body {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 4em;
   font-size: 18px;
   text-align: center;
+  background-color: var(--accent2-color);
+}
+#body-site-map{
+  padding: 4em;
+
 }
 img {
   display: block;
@@ -62,7 +66,7 @@ hr {
   background: var(--accent1-color);
 }
 header {
-  padding: 1em;
+  padding-top: 1em;
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
@@ -208,11 +212,16 @@ height: 50%;
 .top_footer{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr 2fr;
+  background-color: var(--primary-color);
+}
+.bottom_footer{
+  background-color: var(--secondary-color);
 }
 
 .sub{
   grid-column: 1/2;
   justify-items: center;
+  color: var(--accent2-color);
 }
 .input{
   grid-column: 2/3;
@@ -225,8 +234,51 @@ height: 50%;
 }
 .stay_connected{
   grid-column: 3/4;
+  color: var(--accent2-color);
 }
 
 #hero-img {
   width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+#gen-contact{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  margin: 50px;
+}
+#name{
+  grid-column: 1/2;
+  padding: 0;
+  text-align: left;
+}
+.button{
+  background-color: #6cae75;
+    color: black;
+    text-decoration: none;
+    font-family: var(--heading-font);
+    font-size: 50px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    grid-column: 2/3;
+}
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 50px;
+  gap: 50px;
+}
+#content{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.tools, .warehouse, .house{
+  border-radius: 10%;
+  background-color: var(--accent1-color);
+  opacity: .8;
+  padding: 30px;
+  align-items: center;
+
 }
