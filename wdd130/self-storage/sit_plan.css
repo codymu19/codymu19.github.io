@@ -292,3 +292,22 @@ height: 50%;
 #fname{
   grid-column: 2/3;
 }
+.contact-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+.email, .phone, .location, .question, .thumb, .globe{
+  /* border: 3px solid; */
+  background-color: var(--accent2-color);
+  border-radius: 10%;
+  padding: 25px;
+  text-align: center;
+  margin: 20px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 20px;
+}
