@@ -13,18 +13,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="first_div">
-    <span class="material-icons">
-        check_circle
-    </span>
-    </div>
-
-    <br> 
-
 <!-- First Ice -->
 <div class="first_ice">
-    <img id="check" src="images\check.png" alt="check ">
-    <h1 class="text">Your work has been saved.</h1>
+    <div id="check">
+        <i class="fa-regular fa-circle-check"></i>
+    </div>
+    <!-- <span class="material-icons-outlined">
+        check_circle_outline
+    </span> -->
+    <h1 class="check_text">Your work has been saved</h1>
 </div>
 
 <!-- Second Ice -->
@@ -59,14 +56,18 @@
         <span class="material-icons" >
             info
         </span>
-        <h1>HTML<a class="underline_link" href="#" target="_blank">Example</a></h1>
-        <p>You can use <strong>bold text</strong>, <a id="blue_link" href="#" target="_blank">links</a> and other HTML tags</p>
+        <section class="big_text">
+            <h1>HTML <a class="underline_link" href="#" target="_blank">example</a></h1>
+        </section>
+        <section class="text">
+            <p>You can use <strong class="bold">bold text</strong>, <a id="blue_link" href="#" target="_blank">links</a> and other HTML tags</p>
+        </section>
         <div>
             <label>
-                <button type="submit"><i class="fa-solid fa-thumbs-up"></i>Great!</button>
+                <button class="thumbs_up" type="submit"><i class="fa-solid fa-thumbs-up" style="color: white;;"></i> Great!</button>
             </label>
             <label>
-                <button type="submit"><i class="fa-solid fa-thumbs-down" class="thumbs_up"></i></button>
+                <button class="thumbs_down" type="submit"><i class="fa-solid fa-thumbs-down"  style="color: white" ></i></button>
             </label>
         </div>
 </body>

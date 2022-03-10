@@ -14,10 +14,20 @@ body {
     text-align: center;
 }
 
+/* First Ice */
 
-
-
-
+#check{
+    padding-top: 100px;
+    font-size: 90px;
+    color: #a9dd8a;
+    text-align: center;
+}
+.check_text{
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+    color: #504b3fd2;
+    text-align: center;
+}
 
 /* Second Ice */
 #ok{
@@ -38,8 +48,8 @@ body {
 }
 
 #dog{
-    width: 337px;
-    height: 171px;
+    width: 330px;
+    height: 165px;
     margin-top: 50px;
 }
 .second_ice{
@@ -72,7 +82,7 @@ body {
     color: red;
 }
 .link{
-    color: #357edd;
+    color: #4A88D9;
     font-weight: bold;
     margin-top: 30px;
 }
@@ -82,6 +92,7 @@ body {
 }
 .oops{
     margin-bottom: 0;
+    color: #504b3fd9;
 }
 .ok{
     background-color: #4A88D9; /* Green */
@@ -124,21 +135,56 @@ body {
 }
 
 .underline_link {
-    color: black;
+    color: #504b3fd2;
 }
 
 #blue_link {
-    
+    text-decoration: none;
+    color: #66AAF6;
+    font-weight: 900;
 }
 
 .thumbs_up {
-
+    color: white;
+    padding: 10px;
+    background-color: #4A88D9;
+    border-radius: 10%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0px;
 }
 
 .thumbs_down {
-    
+    color: white;
+    padding: 10px;
+    background-color: #A9A8A8;
+    border-radius: 10%;
+    outline: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0;
 }
 
 .right_align {
     margin-left: 100px;
+}
+.text{
+    font-family: 'Open Sans', sans-serif;
+    color: #504b3fd2;
+    font-size: 12px;
+}
+.big_text{
+    font-family: 'Open Sans', sans-serif;
+    color: #504b3fd2;
+    font-size: 13px;
+}
+.bold{
+    font-weight: 900;
+}
+label{
+    padding: 4px;
 }
