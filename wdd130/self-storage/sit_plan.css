@@ -263,6 +263,7 @@ height: 50%;
   margin: 0px;
   z-index: -5;
   grid-row-start: 1;
+  grid-column-start: 1;
 }
 #gen-contact{
   display: grid;
@@ -370,4 +371,9 @@ td, th{
 }
 .find_unit_h1{
   text-align: left;
+}
+.tools_pic{
+  width: 100%;
+  z-index: -5;
+  border-radius: 10%;
 }
