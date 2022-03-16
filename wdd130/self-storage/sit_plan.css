@@ -495,3 +495,9 @@ td, th{
   margin-bottom: 50px;
   margin-top: 20px;
 }
+#googleMap{
+  width:80%;
+  height: 350px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
