@@ -333,11 +333,17 @@ height: 50%;
 .tools, .warehouse, .house{
   /* border: 1px solid black; */
   margin: 0px;
-  padding: 20px;
-  background-color: white;
+  /* padding: 20px; */
+  /* background-color: var(--primary-color); */
   text-align: center;
+  width: 70%;
+  max-height: 350px;
 
 
+}
+.ad{
+  /* color: var(--accent2-color); */
+  padding-top: 30px;
 }
 #background_img{
   width: 100%;
@@ -377,19 +383,24 @@ form{
   justify-self: right;
 }
 .r1{
-  background-color: rgba(128, 128, 128, 0.551);
+  /* background-color: rgba(128, 128, 128, 0.551); */
+  background-color: var(--secondary-color);
 }
 .gray{
-  background-color: rgba(128, 128, 128, 0.551);
+  /* background-color: rgba(128, 128, 128, 0.551); */
+  background-color: var(--secondary-color);
 }
 table{
   margin: 0 auto;
   margin-bottom: 100px;
   border: 1px solid gray;
   font-family: var(--paragraph-font);
-  width: 90%;
+  width: 100%;
   line-height: 5ex;
   border-collapse: collapse;
+}
+.table{
+  padding: 50px;
 }
 td, th{
   padding: 10px;
@@ -399,8 +410,8 @@ td, th{
   font-size: 40px;
 }
 .find_unit{
-  margin: 50px;
-  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
   /* background-color: #F29B30; */
   text-align: center;
   text-decoration: underline #F29B30 ;
@@ -433,20 +444,22 @@ td, th{
   /* text-decoration: underline; */
 }
 .card_title h1{
-  color: var(--secondary-color);
   font-size: 30px;
+  text-decoration: underline orange;
 }
 .accordion {
   background-color: #eee;
   color: #444;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 65%;
   border: none;
   text-align: left;
   outline: none;
   font-size: 15px;
   transition: 0.4s;
+  font-family: var(--heading-font);
+  font-weight: 900;
 }
 
 .active, .accordion:hover {
@@ -466,11 +479,19 @@ td, th{
 }
 
 .panel {
-  padding: 0 18px;
+  padding: 0;
   background-color: white;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  width: 65%;
+  margin: 0 auto;
+  font-family: var(--paragraph-font);
+  text-align: left;
 }.faq_header{
   padding: 20px;
+}
+.faq_accordion{
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
