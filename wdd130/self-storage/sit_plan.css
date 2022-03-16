@@ -396,7 +396,7 @@ td, th{
   text-align: center;
   border: 1px solid rgba(128, 128, 128, 0.551);
   color: black;
-  font-size: 30px;
+  font-size: 40px;
 }
 .find_unit{
   margin: 50px;
@@ -425,4 +425,52 @@ td, th{
   justify-content: center;
   margin: 0 auto;
   text-align: center;
+}
+.card_title{
+  grid-column: 1/4;
+  padding: 10px;
+  text-align: left;
+  /* text-decoration: underline; */
+}
+.card_title h1{
+  color: var(--secondary-color);
+  font-size: 30px;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}.faq_header{
+  padding: 20px;
 }

@@ -27,7 +27,7 @@
             </div>
         </div>
     <main>
-        <h1>Frequently Asked Questions</h1>
+        <!-- <h1>Frequently Asked Questions</h1>
         <div>
             <section>
                 <h3>What are Office hours?</h3>
@@ -78,9 +78,112 @@
                 <h3>What size storage units are there?</h3>
                 <p>5’ x 5’, 5’ x 10’, 10’ x 10’, 10’ x 15’, 10’ x 20’, 10’ x 25’, and 10’ x 30'.</p>
             </section>
-        </div>
+        </div> -->
+        <h1 class="faq_header">Frequently Asked Questions</h1>
+
+<button class="accordion">What are Office hours?</button>
+<div class="panel">
+  <p>Monday-Friday from 8:00am – 5:00pm Saturday from 9:00 am – 12:00pm Sunday CLOSED</p>
+</div>
+
+<button class="accordion">How to I pay my bill?</button>
+<div class="panel">
+  <p>Pay here (link). You may pay your bill with a debit or credit card or by bank transfer.</p>
+</div>
+
+<button class="accordion">When are access hours?</button>
+<div class="panel">
+  <p>You can access your unit daily, 24 hours a day.</p>
+</div>
+
+<button class="accordion">What security is available</button>
+<div class="panel">
+  <p>There is 24/7 surveillance on each of the storage units and all access if recorded through Noke smart keyless entry.</p>
+</div>
+
+<button class="accordion">Do I need storage insurance?</button>
+<div class="panel">
+  <p>Insurance is not provided but you may purchase insurance from us or an outside vendor.</p>
+</div>
+
+<button class="accordion">Do I need to give a move out notice?</button>
+<div class="panel">
+  <p>Yes. Give us a notice 15 days before you plan to move out.</p>
+</div>
+
+<button class="accordion">Is there a minimum rental time?</button>
+<div class="panel">
+  <p>We rent from month to month. However, when you move in your first month will be prorated to the time that you move in. When you move out you will be charged for the whole month.</p>
+</div>
+
+<button class="accordion">Are moving carts and dollies provided?</button>
+<div class="panel">
+  <p>There will be moving carts and dollies available throughout the building</p>
+</div>
+
+<button class="accordion">Do I need to bring my own lock?</button>
+<div class="panel">
+  <p>You do not need your own lock. All unit have Noke smart keyless entry systems.</p>
+</div>
+
+<button class="accordion">What do I need to rent a storage unit?</button>
+<div class="panel">
+  <p>You need two forms of ID. Such as a driver’s license, passport, state ID.</p>
+</div>
+
+<button class="accordion">What items are not allowed to be stored?</button>
+<div class="panel">
+  <p>Perishables, plants, animals, stolen or illegal goods, flammable or hazardous items, combustible items or liquids are not allowed to be stored.</p>
+</div>
+
+<button class="accordion">What size storage units are there?</button>
+<div class="panel">
+  <ol>
+      <p>5’ x 5’</p>
+      <p>5' x 10'</p>
+      <p>10' x 10'</p>
+      <p>10' x 15'</p>
+      <p>10' x 20'</p>
+      <p>10' x 25'</p>
+      <p>10' x 30'</p>
+  </ol>
+</div>
+
+<!-- <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script> -->
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
     </main>
 </body>
+
 <footer>
     <div class="top_footer">
         <p id="sub">SUBSCRIBE</p>
