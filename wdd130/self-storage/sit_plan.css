@@ -78,24 +78,33 @@ header > h1, header > h2 {
 }
 #hero-msg{
   grid-column: 2/3;
-  grid-row: 1/2;
   margin-top: 100px;
+  grid-row: 1/3;
+  padding: 25px;
 }
 
 #hero-msg h1 {
   text-align: center;
+  font-family: var(--heading-font);
+  color: var(--accent2-color);
+  font-weight: 900;
+  padding: 10px;
+  font-size: 3em;
 }
 
 #hero-msg h4 {
   text-align: center;
   font-family: var(--paragraph-font);
+  color: var(--accent2-color);
 }
 .button-box {
   text-align: center;
   border: #F29B30 solid;
   width: 75px;
   border-radius: 10%;
-  margin: 0 auto;
+  margin: 25px auto;
+  grid-row: 2/3;
+  grid-column: 2/3;
 }
 p {
   font-family: var(--paragraph-font);
@@ -171,8 +180,8 @@ nav a:hover {
 }
 #logo_link {
   padding-top: 5px;
-  justify-self: center;
-  align-self: center;
+  /* justify-self: center;
+  align-self: center; */
 }
 
 .sitemap {
@@ -401,6 +410,8 @@ td, th{
 }
 .find_unit_link{
   color: white;
+  font-size: 15px;
+  font-weight: 0;
 }
 .tools_pic{
   width: 100%;
