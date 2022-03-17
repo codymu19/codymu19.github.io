@@ -48,6 +48,13 @@ body {
   padding: 4em;
 
 }
+.header-site-map{
+  display: block;
+  padding: 2em;
+}
+.h-site{
+  padding: 10px;
+}
 img {
   display: block;
   margin: 0 auto;
