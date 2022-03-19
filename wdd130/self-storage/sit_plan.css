@@ -317,7 +317,7 @@ height: 50%;
   grid-template-columns:1fr 1fr;
   margin: 50px;
 }
-#name{
+.name{
   grid-column: 1/2;
   padding: 0;
   text-align: left;
@@ -468,9 +468,10 @@ td, th{
   text-align: left;
   /* text-decoration: underline; */
 }
-.card_title h1{
+.card_title h2{
   font-size: 30px;
   text-decoration: underline orange;
+  text-align: left;
 }
 .accordion {
   background-color: #eee;
