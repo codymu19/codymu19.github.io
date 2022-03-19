@@ -446,7 +446,6 @@ td, th{
 .find_unit_link{
   color: white;
   font-size: 15px;
-  font-weight: 0;
   transition-duration: 0.4s;
 }
 .tools_pic{
