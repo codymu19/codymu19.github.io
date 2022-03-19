@@ -90,7 +90,7 @@ header > h1, header > h2 {
   padding: 25px;
 }
 
-#hero-msg h1 {
+#hero-msg h2 {
   text-align: center;
   font-family: var(--heading-font);
   color: var(--accent2-color);
