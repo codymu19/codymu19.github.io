@@ -477,7 +477,7 @@ td, th{
   color: #444;
   cursor: pointer;
   padding: 18px;
-  width: 65%;
+  width: 80%;
   border: none;
   text-align: left;
   outline: none;
@@ -515,10 +515,14 @@ td, th{
   text-align: left;
 }.faq_header{
   padding: 20px;
+  grid-row: 1;
+  grid-column: 1/13;
 }
 .faq_accordion{
   margin-bottom: 50px;
   margin-top: 20px;
+  grid-row: 2;
+  grid-column: 1/12;
 }
 #googleMap{
   width:90%;
@@ -577,6 +581,48 @@ td, th{
   margin: 0 auto;
   width: 50%;
   height: 20%;
+}
+#quick_box{
+  display: grid;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+#quick_box  div{
+  width: 250px;
+  background-color: var(--primary-color);
+  grid-column: 10/13;
+  max-height: 300px;
+
+}
+#quick_box button{
+  background-color: var(--secondary-color);
+  font-weight: bold;
+}
+#quick_box button:hover{
+  background-color: #f29b30bd
+}
+.box1{
+  margin-bottom: 10px;
+}
+.box2{
+  margin-top: 10px;
+}
+#quick_box p{
+  margin: 0px;
+  line-height: 0px;
+  color: var(--accent2-color);
+}
+#quick_box img{
+  width: 80%;
+  padding-top: 20px;
+}
+#quick_box button{
+  margin-bottom: 10px;
+}
+.faq {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 90px 6fr;
 }
 
 
@@ -650,4 +696,5 @@ td, th{
   .ad p{
     font-size: 5px;
   }
+ 
 }
