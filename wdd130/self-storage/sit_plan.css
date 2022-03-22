@@ -509,10 +509,11 @@ td, th{
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  width: 65%;
+  width: 80%;
   margin: 0 auto;
   font-family: var(--paragraph-font);
   text-align: left;
+  line-height: auto;
 }.faq_header{
   padding: 20px;
   grid-row: 1;
@@ -596,7 +597,7 @@ td, th{
 }
 #quick_box button{
   background-color: var(--secondary-color);
-  font-weight: bold;
+  font-weight: 550;
 }
 #quick_box button:hover{
   background-color: #f29b30bd
@@ -623,6 +624,10 @@ td, th{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 90px 6fr;
+}
+.list p{
+  padding: 5px;
+  margin: 0px;
 }
 
 
