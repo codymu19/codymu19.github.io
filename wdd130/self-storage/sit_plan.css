@@ -284,11 +284,14 @@ footer a:link{
 
 .top_footer{
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
   background-color: var(--primary-color);
   align-items: center;
 }
-
+.top_footer p{
+  font-family: var(--heading-font);
+  font-weight: 900;
+}
 #sub{
   grid-column: 1/2;
   color: var(--accent2-color);
