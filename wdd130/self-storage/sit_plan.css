@@ -254,10 +254,15 @@ height: 50%;
 
 .bottom_footer{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr .5fr;
   background-color: var(--secondary-color);
   align-items: center;
   padding: 10px;
+}
+.bottom_footer p{
+  font-family: var(--heading-font);
+  font-size: 10px;
+  text-align: right;
 }
 footer a{
   color: var(--primary-color);
@@ -530,7 +535,12 @@ td, th{
   font-family: var(--paragraph-font);
   text-align: left;
   line-height: auto;
-}.faq_header{
+}
+.list_h{
+  margin: 0px;
+  padding-bottom: 0px;
+}
+.faq_header{
   padding: 20px;
   grid-row: 1;
   grid-column: 1/13;
@@ -621,6 +631,9 @@ td, th{
 .box1{
   margin-bottom: 10px;
 }
+.box1 a:visited, .box2 a:visited{
+  color: var(--primary-color);
+}
 .box2{
   margin-top: 10px;
 }
@@ -645,7 +658,9 @@ td, th{
   padding: 5px;
   margin: 0px;
 }
-
+.list li{
+  font-family: var(--paragraph-font);
+}
 
 
 @media screen  and (max-width: 900px) {
