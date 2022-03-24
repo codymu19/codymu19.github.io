@@ -259,17 +259,15 @@ height: 50%;
   align-items: center;
   padding: 10px;
 }
-footer h3:hover {
-  color: var(--nav-hover-link-color);
+footer h3:hover{
   background-color: var(--nav-hover-background-color);
 }
-footer a:visited{
-  color: var(--primary-color);
+footer a:link, footer a:visited {
+  color: var(--nav-link-color);
 }
 footer a:hover{
   color: white;
 }
-
 .bottom_footer h3{
   padding: 15px;
 }
@@ -714,5 +712,8 @@ td, th{
   .ad p{
     font-size: 5px;
   }
- 
+ header{
+  align-items: center;
+ }
+
 }
