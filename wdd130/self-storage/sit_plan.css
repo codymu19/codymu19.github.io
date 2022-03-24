@@ -259,14 +259,19 @@ height: 50%;
   align-items: center;
   padding: 10px;
 }
-footer h3:hover{
-  background-color: var(--nav-hover-background-color);
-}
-footer a:link, footer a:visited {
-  color: var(--nav-link-color);
+footer a{
+  color: var(--primary-color);
+  font-size: 21px;
+  font-weight: 900;
+  font-family: var(--heading-font);
+  padding: 15px;
 }
 footer a:hover{
+  background-color: var(--nav-hover-background-color);
   color: white;
+}
+footer a:link{
+  color: var(--nav-link-color);
 }
 .bottom_footer h3{
   padding: 15px;
