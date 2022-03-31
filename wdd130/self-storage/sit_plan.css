@@ -425,7 +425,6 @@ form{
 }
 .contact-grid div a:hover{
   color: #f2b530;
-  box-shadow: rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .contact-grid div i{
   font-size: 90px;
@@ -695,6 +694,13 @@ td, th{
     margin: 10px;
     border-radius: 10px;
 } 
+#contact_us_background {
+  background-image: url('https://images.unsplash.com/photo-1600718800089-353dc75b7bfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
+  /* background-image: url('https://www.kali.org/images/kali-desktop-xfce.jpg'); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 
 @media screen  and (max-width: 900px) {
